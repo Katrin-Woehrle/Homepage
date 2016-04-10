@@ -34,8 +34,8 @@ section
 
 main
   {
-    display: block;  /* für IE */
-		background: #c4ced3;
+    		display: block;  /* für IE */
+		background: #fffbf0;
 		border-color: #8a9da8;
 	}
 
