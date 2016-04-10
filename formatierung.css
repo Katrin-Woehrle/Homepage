@@ -1,3 +1,18 @@
+body
+  {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: #FFFFFF;
+    padding: 0px;
+    width: 100%;
+    background-repeat: repeat-y;
+    background-position: 50% 0%;
+    width: 100%;
+  }
+
+
 #oben
   {
     padding: 0px;
