@@ -14,12 +14,6 @@ header, nav, main, article, section, aside, footer
 		margin: 10px;
 	}
 
-img
-	{
-		width="1217";
-		vertical-align: middle;
-	}
-
 header
   {
 		background: #F1F3F4;
