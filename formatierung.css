@@ -4,6 +4,7 @@ body
 		max-width: 80em;
 		font-family: sans-serif;
 		color: #333333;
+		text-align: center;
 	}
 
 header, nav, main, article, section, aside, footer
