@@ -12,7 +12,7 @@ header, nav, main, article, section, aside, footer
 		border: 1px solid;
 		padding: 10px;
 		margin: 10px;
-		text-align: middle;
+		vertical-align: middle;
 	}
 
 header
