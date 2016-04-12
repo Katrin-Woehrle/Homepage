@@ -17,6 +17,8 @@ header, nav, main, article, section, aside, footer
 img
 	{
 		float: none;
+		width: 100%;
+		height: auto;
 		padding: 5px;
 		margin: 5px;
 	}
