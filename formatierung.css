@@ -16,7 +16,7 @@ header, nav, main, article, section, aside, footer
 	
 img
 	{
-		float: none;
+		float: right;
 	}
 
 header
