@@ -6,6 +6,11 @@ body
 		color: #333333;
 	}
 
+h4
+{
+	color= "#cd0000";
+}
+
 header, nav, main, article, section, aside, footer
 	{
 		border-radius: 0px 0.5em 0.5em;
