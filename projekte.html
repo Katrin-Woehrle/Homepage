@@ -9,6 +9,17 @@
  
 <body>
 
+	<script type = "text/javascript">	
+	function pruefeEingabe()
+		{ var Name = document.birthday.Name.value;
+	 	if (Name.length == 0)
+			{ alert ("Geben Sie einen Namen ein!");
+		 	document.birthday.Name.focus();
+		 	return false;
+			}
+		 return true;
+		}
+</script>
   <header>
     <img src="bilder/pferdeoben.jpg" alt="logo" width="100%" height="auto" float="none">
     <h1>Homepage von Katrin Wöhrle</h1>
