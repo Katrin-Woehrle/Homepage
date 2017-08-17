@@ -8,6 +8,18 @@
 </head>
  
 <body>
+
+	<script type = "text/javascript">	
+	function pruefeEingabe()
+		{ var Name = document.birthday.Name.value;
+	 	if (Name.length == 0)
+			{ alert ("Geben Sie einen Namen ein!");
+		 	document.birthday.Name.focus();
+		 	return false;
+			}
+		 return true;
+		}
+</script>
   <header>
     <img src="bilder/pferdeoben.jpg" alt="logo" width="100%" height="auto" float="none">
     <h1>Homepage von Katrin Wöhrle</h1>
@@ -29,7 +41,13 @@
 	    
 	    <br>	    	
 	    <p>&rArr; Rätsel zum Lernprogramm Basispass Pferdekunde (Nach dem Absolvieren des kompletten Lernprogramms sollte das kein Problem mehr sein!) </p>
-		<script src="http://www.kreuzwort-raetsel.com/js/cw_init/raetsel.js"></script>
+		<br>
+	    	<h4>
+		Leider ist das Kreuzworträtsel auf http://www.kreuzwort-raetsel.com/js/cw_init/raetsel.js nicht mehr abrufbar. <br>
+	    	Sobald ich eine Lösung gefunden habe, werde ich es wieder einfügen.<br>
+	    	</h4>
+	    
+	    	<script src="http://www.kreuzwort-raetsel.com/js/cw_init/raetsel.js"></script>
 	    	<div id="raetselcwcontainer" style="position: relative;"></div>
 	    	<script>raetsel.init(37115);</script>    
 		<br>
@@ -45,6 +63,20 @@
       <p>&rArr; Invaders - Bild und Spiel werden noch eingefügt</p>
       <p>&rArr; Unity 3D-Spiel (Tutorial - Übung)</p><img src="bilder/3d-Spiel-Lerpz.jpg" alt="3D-Spiel" width="50%" height="auto" float="none">
       <p>&rArr; Kartenspiel - Bild und Spiel werden noch eingefügt</p>
+      <p>&rArr; Altersberechnung</p>
+	    
+	    <form name="birthday" method="post" action="Altersberechnung.php" onsubmit = "return pruefeEingabe()">
+		    Dein Name: <input name="Name" type="text" size="15" maxlength="15">
+		    Dein Geburtsdatum:
+		    Tag: <input name="tag" type="text" size="2" maxlength="2">
+		    Monat: <input name="mon" type="text" size="2" maxlength="2">
+		    Jahr: <input name="jahr" type="text" size="4" maxlength="4">
+		    Stunde: <input name="Stunde" type="text" size="2" maxlength="2">
+		    Minute: <input name="Minute" type="text" size="2" maxlength="2">
+		    
+		    <input type="submit" name="Submit" value="Senden">
+	    </form>
+	    
       <p>&rArr; ... </p>
    </article>
   </main>
