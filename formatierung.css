@@ -21,12 +21,12 @@ header
 		text-align: center;
 	}
 
-/*nav
+nav
   {
 		background: #fffbf0;
 		border-color: #e7c157;
 	}
-*/
+
 section 
   {
 		background: #F1F3F4;
@@ -59,6 +59,6 @@ footer
 	}
 
 A:link { color: yellow; text-decoration: none; }
-A:hover {color: green; text-decoration: underline ;}
-A:visited { color : red; text-decoration: none; }
+A:hover {color: blue; text-decoration: underline ;}
+A:visited { color : gray; text-decoration: none; }
 A:active {color: red; background: #CFDFEB; text-decoration: none; }
