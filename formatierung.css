@@ -57,3 +57,8 @@ footer
 		background: #e4ebf2;
 		border-color: #8a9da8;
 	}
+
+A:link { color: yellow; text-decoration: none; }
+A:hover {color: green; text-decoration: underline ;}
+A:visited { color : red; text-decoration: none; }
+A:active {color: red; background: #CFDFEB; text-decoration: none; }
