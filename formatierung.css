@@ -59,6 +59,6 @@ footer
 	}
 
 A:link {color: red; text-decoration: none;}
-A:hover {color: gray; text-decoration: none ;}
-/*A:visited { color : gray; text-decoration: none; }*/
+A:hover {color: #6495ED; text-decoration: none ;}
+A:visited { color : gray; text-decoration: none; }
 /*A:active {color: red; background: #CFDFEB; text-decoration: none; }*/
