@@ -58,7 +58,7 @@ footer
 		border-color: #8a9da8;
 	}
 
-/*A:link { color: yellow; text-decoration: none; }*/
+A:link { color: yellow; text-decoration: none; }
 A:hover {color: red; text-decoration: none ;}
 /*A:visited { color : gray; text-decoration: none; }*/
 /*A:active {color: red; background: #CFDFEB; text-decoration: none; }*/
