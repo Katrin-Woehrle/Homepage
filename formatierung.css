@@ -1,3 +1,7 @@
+A:link {color: #000000; text-decoration: none;}
+A:visited {color: #808080; text-decoration: none;}
+A:hover {color: #6495ED; text-decoration: none;}
+
 body
   {
 		margin: 10px auto;
@@ -57,7 +61,3 @@ footer
 		background: #e4ebf2;
 		border-color: #8a9da8;
 	}
-
-A:link {color: #000000; text-decoration: none;}
-A:visited {color: gray; text-decoration: none;}
-A:hover {color: #6495ED; text-decoration: none;}
