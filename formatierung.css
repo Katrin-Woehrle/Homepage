@@ -16,7 +16,7 @@ header, nav, main, article, section, aside, footer
 		border: 1px solid;
 		padding: 10px;
 		/*margin: 10px;*/
-		margin: auto;
+		margin: 100%;
 	}
 
 header
