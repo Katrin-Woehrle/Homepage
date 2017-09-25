@@ -21,6 +21,10 @@ a:hover
 		color: #6495ED; text-decoration: none;
 	}
 
+h1 	{ 
+  		font-family: 'Great Vibes', cursive;
+  		font-size: 2em;
+	}
 
 header, nav, main, article, section, aside, footer
 	{
