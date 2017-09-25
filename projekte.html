@@ -9,17 +9,6 @@
  
 <body>
 
-	<script type = "text/javascript">	
-	function pruefeEingabe()
-		{ var Name = document.birthday.Name.value;
-	 	if (Name.length == 0)
-			{ alert ("Geben Sie einen Namen ein!");
-		 	document.birthday.Name.focus();
-		 	return false;
-			}
-		 return true;
-		}
-</script>
   <header>
     <img src="bilder/pferdeoben.jpg" alt="logo" width="100%" height="auto" float="none">
 	  <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
@@ -84,19 +73,7 @@
 		<img src="bilder/3d-Spiel-Lerpz.jpg" alt="3D-Spiel" width="50%" height="auto" float="none">
 	    </a>
       <p>&rArr; Kartenspiel - Bild und Spiel werden noch eingefügt</p>
-      <p>&rArr; Altersberechnung</p>
-	    
-	    <form name="birthday" method="post" action="Altersberechnung.php" onsubmit = "return pruefeEingabe()">
-		    Dein Name: <input name="Name" type="text" size="15" maxlength="15">
-		    Dein Geburtsdatum:
-		    Tag: <input name="tag" type="text" size="2" maxlength="2">
-		    Monat: <input name="mon" type="text" size="2" maxlength="2">
-		    Jahr: <input name="jahr" type="text" size="4" maxlength="4">
-		    Stunde: <input name="Stunde" type="text" size="2" maxlength="2">
-		    Minute: <input name="Minute" type="text" size="2" maxlength="2">
-		    
-		    <input type="submit" name="Submit" value="Senden">
-	    </form>
+         
 	    
       <p>&rArr; ... </p>
    </article>
