@@ -38,7 +38,7 @@ header, nav, main, article, section, aside, footer
 
 header
   {
-		background: #F1F3F4;
+		background: #e4ebf2;
 		border-color: #d5d5d5;
 		text-align: center;
 	}
@@ -60,7 +60,7 @@ section
 main
   {
     		display: block;  /* für IE */
-		background: #F1F3F4;
+		background: #e4ebf2;
 		border-color: #d5d5d5;
 	}
 
