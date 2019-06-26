@@ -91,3 +91,10 @@ footer
 	background-position: 75% 25%;
 	color: #FFFFFF;
 }
+
+.mitte
+{
+	display: flex;
+	justify-content: center; 
+    	align-items: center;
+}
