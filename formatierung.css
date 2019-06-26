@@ -13,7 +13,7 @@ a:link
 
 a:visited 
 	{
-		color: #000000; text-decoration: underline;
+		color: #FFD700; text-decoration: underline;
 	}
 
 a:hover 
@@ -92,9 +92,4 @@ footer
 	color: #F8F8FF;
 	text-align: center;
 	font-size: 120%
-}
-
-.liste
-{
-	color: #FFD700; text-decoration: underline;
 }
