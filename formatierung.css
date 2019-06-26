@@ -86,5 +86,6 @@ footer
 .einladung
 {
 	background-image: url("bilder/IMG_20190517_154558.jpg");
-	background-repeat: repeat-x;
+	background-repeat: no-repeat;
+	background-size: auto auto;
 }
