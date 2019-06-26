@@ -87,6 +87,6 @@ footer
 {
 	background-image: url("bilder/IMG_20190517_154558.jpg");
 	background-repeat: no-repeat;
-	background-size: 50% 50%;
+	background-size: auto;
 	background-position: 75% 25%;
 }
