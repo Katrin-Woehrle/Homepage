@@ -93,3 +93,8 @@ footer
 	text-align: center;
 	font-size: 120%
 }
+
+.liste
+{
+	color: #FFD700; text-decoration: underline;
+}
