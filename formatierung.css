@@ -87,7 +87,7 @@ footer
 {
 	background-image: url("bilder/Urlaub.jpg");
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	background-position: 65% 35%;
 	color: #F8F8FF;
 	text-align: center;
